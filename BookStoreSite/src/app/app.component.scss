@@ -1,0 +1,62 @@
+.btn-group>.btn.btn-Motobike{
+    background-color: green;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Motobike:not(:last-child):not(.dropdown-toggle){
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Motobike:not(:first-child):not(.dropdown-toggle){
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Motobike.active{
+    background-color: #C48C2B;
+    color: #ffffff;
+}
+
+.btn-group>.btn.btn-Train{
+    background-color: blue;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Train:not(:last-child):not(.dropdown-toggle){
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Train:not(:first-child):not(.dropdown-toggle){
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Train.active{
+    background-color: #C48C2B;
+    color: #ffffff;
+}
+
+.btn-group>.btn.btn-Aircraft{
+    background-color: yellow;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Aircraft:not(:last-child):not(.dropdown-toggle){
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Aircraft:not(:first-child):not(.dropdown-toggle){
+    border-radius: 15px;
+}
+
+.btn-group>.btn.btn-Aircraft.active{
+    background-color: #C48C2B;
+    color: #ffffff;
+}

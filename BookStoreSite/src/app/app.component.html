@@ -1,0 +1,71 @@
+<h3>Augen book store</h3>
+
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search" [(ngModel)]="keyword">
+    <div class="input-group-append">
+      <button class="btn btn-dark" (click)="searchItems()">Go</button>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-4 col-lg-2 border-0" *ngFor="let item of items">
+    <div class="card border-0">
+      <img class="card-img-top" style="width:100%" src="{{item.volumeInfo.imageLinks.smallThumbnail}}" />
+      <div class="card-body">
+        <h4 class="card-title">{{item.volumeInfo.title}}</h4>
+        <div class="card-text">
+          <span class="book-authors" *ngFor="let author of item.volumeInfo.authors">{{author}}</span>
+          <span> - </span>
+          <span>{{item.volumeInfo.publishedDate}}</span>
+          <a href="#" class="stretched-link" data-toggle="modal" data-target="#bookModal"
+            (click)="selectedItem = item;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="bookModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header" *ngIf="selectedItem">
+          <h4 class="modal-title">{{selectedItem.volumeInfo.title}}</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body" *ngIf="selectedItem">
+          <div class="row">
+            <div class="col-4">
+              <img src="{{selectedItem.volumeInfo.imageLinks.thumbnail}}" />
+              <h4 class="card-title">{{selectedItem.volumeInfo.title}}</h4>
+              <div>
+                <span class="book-authors" *ngFor="let author of selectedItem.volumeInfo.authors">{{author}}</span>
+                <span> - </span>
+                <span>{{selectedItem.volumeInfo.publishedDate}}</span>
+              </div>
+            </div>
+            <div class="col-8">
+              {{selectedItem.volumeInfo.description}}
+            </div>
+          </div>
+          <div class="col-12">
+            <h6>Ship via</h6>
+          </div>
+          <div class="d-flex flex-fill btn-group btn-group-toggle" data-toggle="buttons">
+            <label *ngFor="let deliveryMethod of deliveryMethods" class="col-4 m-3 btn btn-{{deliveryMethod.name}}" (click)="selectedDeliveryMethod = deliveryMethod;">
+              <input type="radio" autocomplete="off">
+              <span>{{deliveryMethod.name}} ${{deliveryMethod.cost}}</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" (click)="addBook()" class="btn btn-{{selectedDeliveryMethod == null ? 'light' : 'danger' }} col-12" data-dismiss="modal">BUY</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

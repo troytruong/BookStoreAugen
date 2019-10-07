@@ -1,0 +1,16 @@
+D:\BookStoreAPI\BookStoreDb\bin\Debug\netcoreapp3.0\BookStoreDb.deps.json
+D:\BookStoreAPI\BookStoreDb\bin\Debug\netcoreapp3.0\BookStoreDb.dll
+D:\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.AssemblyInfoInputs.cache
+D:\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.AssemblyInfo.cs
+D:\BookStoreAPI\BookStoreDb\bin\Debug\netcoreapp3.0\BookStoreDb.pdb
+D:\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.dll
+D:\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.pdb
+D:\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.csprojAssemblyReference.cache
+D:\BookStore\BookStoreAPI\BookStoreDb\bin\Debug\netcoreapp3.0\BookStoreDb.deps.json
+D:\BookStore\BookStoreAPI\BookStoreDb\bin\Debug\netcoreapp3.0\BookStoreDb.dll
+D:\BookStore\BookStoreAPI\BookStoreDb\bin\Debug\netcoreapp3.0\BookStoreDb.pdb
+D:\BookStore\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.csprojAssemblyReference.cache
+D:\BookStore\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.AssemblyInfoInputs.cache
+D:\BookStore\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.AssemblyInfo.cs
+D:\BookStore\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.dll
+D:\BookStore\BookStoreAPI\BookStoreDb\obj\Debug\netcoreapp3.0\BookStoreDb.pdb
