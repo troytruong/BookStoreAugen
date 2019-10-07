@@ -4899,11 +4899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BookStore\\BookStoreAPI\\UnitOfWorks\\UnitOfWorks.csproj",
+      "projectUniqueName": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\UnitOfWorks\\UnitOfWorks.csproj",
       "projectName": "UnitOfWorks",
-      "projectPath": "D:\\BookStore\\BookStoreAPI\\UnitOfWorks\\UnitOfWorks.csproj",
+      "projectPath": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\UnitOfWorks\\UnitOfWorks.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BookStore\\BookStoreAPI\\UnitOfWorks\\obj\\",
+      "outputPath": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\UnitOfWorks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -4924,8 +4924,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\BookStore\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj": {
-              "projectPath": "D:\\BookStore\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj"
+            "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj": {
+              "projectPath": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj"
             }
           }
         }

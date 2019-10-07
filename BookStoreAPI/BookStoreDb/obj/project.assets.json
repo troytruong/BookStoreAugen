@@ -4841,11 +4841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BookStore\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj",
+      "projectUniqueName": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj",
       "projectName": "BookStoreDb",
-      "projectPath": "D:\\BookStore\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj",
+      "projectPath": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\BookStoreDb\\BookStoreDb.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BookStore\\BookStoreAPI\\BookStoreDb\\obj\\",
+      "outputPath": "D:\\BookStoreAugen\\BookStoreAugen\\BookStoreAPI\\BookStoreDb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
